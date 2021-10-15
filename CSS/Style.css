@@ -1,0 +1,22 @@
+.form_login{
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color:firebrick;
+    color: white;
+    padding: 70px 30px;
+    box-sizing: border-box;
+}
+
+.form_login .logo{
+    width: 100px;
+    height: 100px;
+    
+    top: -50px;
+    left: calc(50% - 50px);
+    position:absolute;
+
+}
