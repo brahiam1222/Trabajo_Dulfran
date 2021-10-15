@@ -20,3 +20,28 @@
     position:absolute;
 
 }
+
+.form_login h1{
+
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+
+
+}
+
+.form_login label{
+    margin: 0;
+    padding: 100;
+    font-weight: bold;
+    display: block; 
+}
+
+.form_login button{
+    
+    margin: 0;
+    padding: 100;
+    font-weight: bold;
+    display: block; 
+}
