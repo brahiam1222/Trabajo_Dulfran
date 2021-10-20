@@ -1,15 +1,18 @@
 .form_login{
-    width: 400px;
-    height: 400px;
+    width: 350PX;
+    height: 350PX;
+    border-radius: 20%;
     position: absolute;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    background-color:firebrick;
+    background-color:tomato;
     color: white;
     padding: 70px 30px;
     box-sizing: border-box;
 }
+
+
 
 .form_login .logo{
     width: 100px;
@@ -34,6 +37,14 @@
 .form_login label{
     margin: 0;
     padding: 100;
+    font-weight: bold;
+    display: block; 
+}
+
+.form_login input{
+    margin: 0;
+    padding: 100;
+    text-align: center;
     font-weight: bold;
     display: block; 
 }
