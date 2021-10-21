@@ -1,6 +1,7 @@
 .form_login{
     width: 350PX;
     height: 350PX;
+    
     border-radius: 20%;
     position: absolute;
     left: 50%;
@@ -39,6 +40,7 @@
     padding: 100;
     font-weight: bold;
     display: block; 
+    text-align: center;
 }
 
 .form_login input{
@@ -56,3 +58,13 @@
     font-weight: bold;
     display: block; 
 }
+
+.form_login form{
+
+    position: absolute;
+    left: 22%;
+    
+
+
+}
+
