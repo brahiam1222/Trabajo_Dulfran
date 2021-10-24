@@ -40,7 +40,8 @@
     padding: 100;
     font-weight: bold;
     display: block; 
-    text-align: center;
+    
+
 }
 
 .form_login input{
@@ -51,18 +52,20 @@
     display: block; 
 }
 
-.form_login button{
+.form_login input{
     
-    margin: 0;
+    margin: auto;
     padding: 100;
     font-weight: bold;
     display: block; 
+    
 }
 
 .form_login form{
 
+
     position: absolute;
-    left: 22%;
+    left: 21%;
     
 
 
