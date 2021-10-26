@@ -172,8 +172,7 @@ font-weight: 600;
     
 
 }
-
-.form_loginhome label{
+.form_loginhome .label_id{
     margin: 0;
     padding: 100;
     font-size: 20px;
@@ -184,10 +183,24 @@ font-weight: 600;
 
 }
 
-.form_loginhome input{
+.form_loginhome .label_pregunta{
+    margin: 0;
+    padding: 100;
+    font-size: 20px;
+    font-weight: bold;
+    display: block; 
+    text-align: center;
+
+
+}
+
+
+
+
+.form_loginhome .input_apuesta{
     
     font-size: 20px;
-    padding: 100;
+    padding: 5px;
     text-align: center;
     font-weight: bold;
     display: block; 
@@ -202,5 +215,32 @@ font-weight: 600;
     font-weight: 600;
 
 }
+
+
+.form_loginhome .preguntas[type=checkbox]{
+      
+        margin-left: 100px;
+        vertical-align: middle;
+        cursor: pointer;
+        display: none;
+    
+}
+
+.form_loginhome .label2:before{
+    content: "";
+    display: inline-block;
+    background: transparent;
+    border: 5px solid steelblue;
+    border-radius: 25%;
+    vertical-align: middle;
+    text-align: center;
+    margin-right: 20px;
+    width: 20px;
+    height: 20px;
+    
+}
+
+
+
 
 
