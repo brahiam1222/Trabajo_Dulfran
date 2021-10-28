@@ -5,9 +5,10 @@ font-weight: 600;
 
 }
 
+
 .form_login{
-    width: 300PX ;
-    height: 350PX;
+    width: auto ;
+    height: auto;
     
     border-radius: 20%;
     position: absolute;
@@ -24,6 +25,9 @@ font-weight: 600;
     background-color: #ffffff;
     color:#1883ba;
     font-weight: 600;
+}
+.form_login .label_msn{
+    text-align: center;
 }
 
 
@@ -49,8 +53,9 @@ font-weight: 600;
 }
 
 .form_login label{
+    
+    
     margin: 0;
-    padding: 100;
     font-weight: bold;
     display: block; 
     
@@ -59,7 +64,7 @@ font-weight: 600;
 
 .form_login input{
     
-    padding: 100;
+   left: calc(50% - 50px);
     text-align: center;
     font-weight: bold;
     display: block; 
